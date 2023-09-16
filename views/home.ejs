@@ -1,13 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home page</title>
 </head>
+
 <body>
-    <h2>Random Number is: <%= num %></h2>
+    <h2>Random Number is: <%= num %>
+    </h2>
+    <!-- <h3><%= 5*4 %></h3> -->
     
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur rerum a commodi accusantium porro odit harum quod veritatis, similique perferendis. Quaerat corrupti ipsum corporis! Deserunt quibusdam optio commodi tempora alias!</p>
+    <% if(num==6){ %>
+    <h2>Your Turn Again</h2>
+    <% } %>
+
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur rerum a commodi accusantium porro
+    odit harum quod veritatis, similique perferendis. Quaerat corrupti ipsum corporis! Deserunt quibusdam
+    optio commodi tempora alias!</p>
+
 </body>
+
 </html>
